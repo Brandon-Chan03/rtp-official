@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-primary-background w-full h-16 flex justify-between items-center px-5">
-      <Image src={logo} height={70} width={70} />
+      <Image height={70} src={logo} width={70} />
       <div className="hidden lg:flex text-white gap-20">
         <Link href="/about">About</Link>
         <Link href="/news">News</Link>
