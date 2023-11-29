@@ -1,9 +1,34 @@
-import Image from "next/image";
+import HomeHero from "@/components/home/HomeHero";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>
-      TEST
+    <div className="flex flex-col">
+      <HomeHero />
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
+      <div>TEST</div>
     </div>
   );
-}
+};
+
+export default Home;

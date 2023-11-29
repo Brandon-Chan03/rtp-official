@@ -6,7 +6,17 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      '75%': '75%',
+      '48': '48rem',
+    },
     extend: {
+      backgroundImage: {
+        "banner": "url('../../public/banner.svg')"
+      },
       colors: {
         "primary-background": "hsl(var(--color-primary-background) / <alpha-value>)",
         "secondary-background": "hsl(var(--color-secondary-background) / <alpha-value>)",
@@ -18,6 +28,8 @@ module.exports = {
       },
       screens: {
         lg: "1201px",
+        "xs-max": { 'raw': '(max-width: 601px)' },
+        "xs-min": { 'raw': '(min-width: 601px)' },
       }
     },
   },
