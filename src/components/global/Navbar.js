@@ -14,7 +14,7 @@ const Navbar = () => {
   const [isActive, setIsActive] = useState();
 
   return (
-    <nav className="bg-primary-background w-full h-16 flex justify-between items-center px-5">
+    <nav className="fixed z-10 bg-primary-background w-full h-16 flex justify-between items-center px-5">
       <Image height={70} src={logo} width={70} />
       <div className="hidden lg:flex text-white gap-20">
         <Link href="/about">About</Link>
