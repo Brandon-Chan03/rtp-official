@@ -1,5 +1,5 @@
 {
-  "name": "temp",
+  "name": "rtp-official",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.0",
+    "@fortawesome/pro-light-svg-icons": "^6.5.0",
+    "@fortawesome/pro-regular-svg-icons": "^6.5.0",
+    "@fortawesome/pro-solid-svg-icons": "^6.5.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "13.5.4",
+    "eslint-plugin-destructuring-newline": "^0.1.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-modules-newline": "^0.0.6",
     "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "tailwindcss": "^3.3.0"
   }
 }
