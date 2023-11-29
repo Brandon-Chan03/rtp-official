@@ -8,7 +8,7 @@ import { faBars, faX } from "@fortawesome/pro-light-svg-icons";
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../../public/logo.svg";
+import logo from "../../../public/rtp_logo.svg";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState();
