@@ -15,7 +15,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "banner": "url('../../public/banner.svg')"
+        "banner": "url('../../public/banner.svg')",
+        "candy": "url('../../public/candy.png')"
       },
       colors: {
         "primary-background": "hsl(var(--color-primary-background) / <alpha-value>)",
@@ -26,10 +27,19 @@ module.exports = {
         "secondary": "hsl(var(--color-secondary) / <alpha-value>)",
         "accent": "hsl(var(--color-accent) / <alpha-value>)",
       },
+      fontFamily: {
+        "inter": "var(--font-inter)",
+        "irish-grover": "var(--font-irish-grover)"
+      },
       screens: {
         lg: "1201px",
-        "xs-max": { 'raw': '(max-width: 601px)' },
-        "xs-min": { 'raw': '(min-width: 601px)' },
+        "small-min": { 'raw': '(min-width: 451px)' },
+        "small-max": { 'raw': '(max-width: 451px)' },
+        "medium-max": { 'raw': '(max-width: 801px)' },
+        "medium-min": { 'raw': '(min-width: 801px)' },
+        "small-medium": { 'raw': '(min-width:451px) and (max-width:801px)' },
+        "large-min": { 'raw': '(min-width: 951px)' },
+        "large-max": { 'raw': '(max-width: 951px)' },
       }
     },
   },
