@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () => {
   return (
     <div className="flex flex-col absolute bottom-0 w-full h-[150px] bg-tertiary-background bg-banner bg-repeat-x bg-48 ">
-      <div className="mt-14 flex justify-around items-center text-white gap-2 xs-min:10">
+      <div className="mt-14 flex justify-around items-center text-white gap-2">
         <Image className="w-10 h-10" src={logo} />
         <Link href="/about">About</Link>
         <Link href="/news">News</Link>
