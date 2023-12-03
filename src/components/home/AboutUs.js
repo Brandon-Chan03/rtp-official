@@ -32,9 +32,3 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
-
-// We are a team of Viva Piñata fans making a project that hopes to bring a third instalment of the main series to light.
-
-// Our entire project is non-profit, made by the fans for the fans.
-
-// Our goal is to bring life back to the Viva Piñata Franchise.

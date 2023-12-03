@@ -3,7 +3,7 @@ import "./globals.css";
 
 import Navbar from "@/components/global/Navbar";
 
-// import Footer from "@/components/global/Footer";
+import Footer from "@/components/global/Footer";
 
 const irishGrover = Irish_Grover({
   subsets: ["latin"],
@@ -27,7 +27,7 @@ const RootLayout = ({ children }) => {
       <body className={`${irishGrover.className} ${inter.className}`}>
         <Navbar />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
